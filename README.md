@@ -3,7 +3,7 @@ iOS 10 通知新特性 Demo
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
-![](https://img.shields.io/badge/download-791K-brightgreen.svg)
+![](https://img.shields.io/badge/download-2.1MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 iOS 10 新特性一出，各家纷纷出动研究新特性能给场景智能化所带来的好处，从widget到推送通知的拓展。
