@@ -1,5 +1,6 @@
 # NotificationNewFeatures
 iOS 10 通知新特性 Demo
+
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
 ![](https://img.shields.io/badge/download-791K-brightgreen.svg)
@@ -23,12 +24,19 @@ iOS 10 新特性一出，各家纷纷出动研究新特性能给场景智能化�
 关于通知，无论与远程Push还是本地通知，以往的iOS系统暴漏给开发者的接口都是十分有限的，开发者只能对标题和内容进行简单的定义，至于UI展示和用户交互行为相关的部分，开发者开发起来都十分困难。至于本地通知，iOS10之前采用的是UILocationNotification类，远程通知有苹果服务器进行转发，本地通知和远程通知其回调的处理都是通过AppDelegate中的几个回调方法来完成。iOS10系统中，通知功能的增强是一大优化之处，iOS10中将通知功能整合成了一个框架UserNotification，其结构十分类似于iOS8中的UIWebView向WebKit框架整合的思路。并且UserNotification相比之前的通知功能更加强大，主要表现在如下几点：
 
 1.通知处理代码可以从AppDelegate中剥离。
+
 2.通知的注册，设置，处理更加结构化，更易于模块化开发。
+
 3.UserNotification支持自定义通知音效和启动图。
+
 4.UserNotification支持向通知内容中添加媒体附件，例如音频，视频。
+
 5.UserNotification支持开发者定义多套通知模板。
+
 6.UserNotification支持完全自定义的通知界面。
+
 7.UserNotification支持自定义通知中的用户交互按钮。
+
 8.通知的触发更加容易管理。
 
 ## License 许可证
