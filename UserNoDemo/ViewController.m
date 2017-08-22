@@ -32,10 +32,16 @@
     self.notiContent.attachments = @[imageAttachment];
     
     [self regiterLocalNotification:self.notiContent];
-
 }
 - (IBAction)p3:(id)sender {
+    NSString *imageFile = [[NSBundle mainBundle] pathForResource:@"video" ofType:@"mp4"];
+    
+    UNNotificationAttachment *videoAttachment = [UNNotificationAttachment attachmentWithIdentifier:@"iamgeAttachment" URL:[NSURL fileURLWithPath:imageFile] options:nil error:nil];
+    self.notiContent.attachments = @[videoAttachment];
+    
+    [self regiterLocalNotification:self.notiContent];
 }
+
 - (IBAction)p4:(id)sender {
     UNTextInputNotificationAction *action1 = [UNTextInputNotificationAction actionWithIdentifier:@"replyAction" title:@"文字回复" options:UNNotificationActionOptionNone];
     UNNotificationAction *action2 = [UNNotificationAction actionWithIdentifier:@"enterAction" title:@"进入应用" options:UNNotificationActionOptionForeground];

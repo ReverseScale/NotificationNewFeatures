@@ -20,6 +20,7 @@
 		3405C5FC1EC98A8D00AD2B02 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405C5FB1EC98A8D00AD2B02 /* NotificationViewController.m */; };
 		3405C5FF1EC98A8D00AD2B02 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3405C5FD1EC98A8D00AD2B02 /* MainInterface.storyboard */; };
 		3405C6031EC98A8D00AD2B02 /* NotificationViewController.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3405C5F31EC98A8D00AD2B02 /* NotificationViewController.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3458B1F71F4BDE1F0074D2E8 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3458B1F61F4BDE1F0074D2E8 /* video.mp4 */; };
 		34BE73A91F458B6000630F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BE73A81F458B6000630F64 /* Main.storyboard */; };
 		34BE73AB1F458E4100630F64 /* caodi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34BE73AA1F458E4100630F64 /* caodi.m4a */; };
 		34BE73AD1F458E5300630F64 /* qingchen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34BE73AC1F458E5300630F64 /* qingchen.m4a */; };
@@ -87,6 +88,7 @@
 		3405C5FB1EC98A8D00AD2B02 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		3405C5FE1EC98A8D00AD2B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		3405C6001EC98A8D00AD2B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3458B1F61F4BDE1F0074D2E8 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		34BE73A81F458B6000630F64 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		34BE73AA1F458E4100630F64 /* caodi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caodi.m4a; sourceTree = "<group>"; };
 		34BE73AC1F458E5300630F64 /* qingchen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = qingchen.m4a; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				3405C5ED1EC988B400AD2B02 /* sport.png */,
 				34BE73AA1F458E4100630F64 /* caodi.m4a */,
 				34BE73AC1F458E5300630F64 /* qingchen.m4a */,
+				3458B1F61F4BDE1F0074D2E8 /* video.mp4 */,
 				34BE73A81F458B6000630F64 /* Main.storyboard */,
 				3405C5C51EC9838600AD2B02 /* Assets.xcassets */,
 				3405C5C71EC9838600AD2B02 /* LaunchScreen.storyboard */,
@@ -352,6 +355,7 @@
 				3405C5C91EC9838600AD2B02 /* LaunchScreen.storyboard in Resources */,
 				3405C5C61EC9838600AD2B02 /* Assets.xcassets in Resources */,
 				34BE73AD1F458E5300630F64 /* qingchen.m4a in Resources */,
+				3458B1F71F4BDE1F0074D2E8 /* video.mp4 in Resources */,
 				34BE73A91F458B6000630F64 /* Main.storyboard in Resources */,
 				34BE73AB1F458E4100630F64 /* caodi.m4a in Resources */,
 			);
